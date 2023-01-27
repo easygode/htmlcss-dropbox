@@ -16,7 +16,6 @@ Typo
 body {
 
     font-family: 'Oxygen', sans-serif;
-    background-color: pink;
 }
 
 /*---------------
@@ -55,6 +54,8 @@ Header
 
 header {
     background-color: #ffff;
+    align-items: center;
+    justify-content: center;
 }
 
 nav {
@@ -77,7 +78,53 @@ nav .header-dx ul
 Main
 ----------------*/
 
+.titolo-jumbo {
+    text-align: center;
+}
 
+.jumbo {
+    display: flex;
+    background-color: #b4d0e7;
+    align-items: center;
+    justify-content: center;
+    height: 450px;
+}
+
+.articolo-jumbo {
+    display: flex;
+    width:60%;
+    position: absolute;
+}
+
+.col-testo {
+    width: 30%;
+}
+
+.col-img {
+    width: 60%;
+}
+
+.col-testo, .col-img {
+    justify-content: center;
+}
+
+#jumbo-img {
+    background-size:auto;
+    height: 460px;
+    position: relative;
+    top: 10vh;
+    margin: 0;
+
+}
+
+.col-testo button {
+    margin: 45px 0 45px 0;
+}
+
+.freggiu {
+    font-size: 40px;
+    margin: 12vh 0 0 0;
+}
 /*---------------
 Footer
 ----------------*/
