@@ -29,13 +29,31 @@ Debug
 Common
 ----------------*/
 
+nav a {
+    text-decoration: none;
+    color: black;
+    font-size: 17px;
+}
 
 
 /*---------------
 Header
 ----------------*/
 
+header {
+    background-color: #ffff;
+    height: 80px;
+}
 
+nav {
+    display: flex;
+}
+
+nav .header-sx,
+nav .header-dx
+ {
+    display: flex;
+}
 
 /*---------------
 Main
