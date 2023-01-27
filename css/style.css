@@ -29,12 +29,25 @@ Debug
 Common
 ----------------*/
 
-nav a {
+ul li {
+    list-style: none;
+}
+
+a {
     text-decoration: none;
     color: black;
     font-size: 17px;
 }
 
+.btn {
+    background-color: #0061ff;
+    align-items: center;
+    text-decoration: none;
+    border: none;
+    color: #ffff;
+    padding: 1vh 2vh 1vh 2vh;
+    font-size: 17px;
+}
 
 /*---------------
 Header
@@ -42,17 +55,22 @@ Header
 
 header {
     background-color: #ffff;
-    height: 80px;
 }
 
 nav {
+    height: 80px;
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 1vw 0 1vw;
 }
 
-nav .header-sx,
-nav .header-dx
+nav .header-sx ul,
+nav .header-dx ul
  {
     display: flex;
+    gap: 8vh;
+    align-items: center;
 }
 
 /*---------------
