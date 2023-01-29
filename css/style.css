@@ -32,6 +32,12 @@ ul li {
     list-style: none;
 }
 
+ul li:hover {
+    text-decoration: underline;
+    border-bottom: #0061ff;
+}
+
+
 a {
     text-decoration: none;
     color: black;
@@ -57,6 +63,7 @@ header {
     background-color: #ffff;
     align-items: center;
     justify-content: center;
+    position: sticky;
 }
 
 nav {
@@ -83,7 +90,7 @@ nav .header-dx ul
 Main
 ----------------*/
 
-main {
+.jumbosection {
     background-color: #b4d0e7;
     height: 80vh;
 }
@@ -101,13 +108,13 @@ main {
     font-size: 40px;
     text-decoration: solid;
     margin: 0 auto;
-    width: 115vh;
+    width: 120vh;
 
 }
 
 .articolo-jumbo {
     display: flex;
-    width: 115vh;
+    width: 120vh;
 }
 
 .col-testo {
@@ -138,6 +145,65 @@ main {
     font-size: 40px;
     margin: 7vh 0 0 0;
 }
+
+/* Larghezza principale del documento, 3 colonne, ecc..*/
+.principale {
+    width: 100vh;
+    margin: 0 auto;
+}
+
+.radio {
+    display: flex;
+    gap: 4vh;
+}
+
+.titolo-business, .business {
+    margin-top: 10vh;
+}
+
+.col1 {
+    width: calc(100% / 3);
+}
+
+.piano-business {
+    display: flex;
+    align-content:space-around;
+    gap: 4vh;
+    margin-top: 3vh;
+}
+
+.col1, .col2, .col3 {
+    width: calc(100% / 3);
+    border: solid #d0d0d3;
+    border-width: 1px;
+    gap: 10px;
+    padding-top: 1vh;
+}
+
+.tipo-utente {
+    text-align: center;
+    padding: 0.5vh 2vh 0 0;
+}
+
+.piano-utente, .prezzo {
+    font-weight: bold;
+    padding: 1.5vh;
+}
+
+.tempo {
+    font-style: italic;
+}
+
+h3 {
+    padding: 2vh;
+    font-size: 18px;
+    font-weight: 200;
+}
+
+.fa-check {
+    color: #0061ff;
+}
+
 /*---------------
 Footer
 ----------------*/
