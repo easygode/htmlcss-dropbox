@@ -15,7 +15,7 @@ Typo
 
 body {
 
-    font-family: 'Oxygen', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 /*---------------
@@ -48,6 +48,7 @@ a {
     font-size: 17px;
 }
 
+
 /*---------------
 Header
 ----------------*/
@@ -74,26 +75,39 @@ nav .header-dx ul
     align-items: center;
 }
 
+.titolo-jumbo > h1 {
+    padding: 6vh 0 0 0;
+}
+
 /*---------------
 Main
 ----------------*/
 
-.titolo-jumbo {
-    text-align: center;
+main {
+    background-color: #b4d0e7;
+    height: 80vh;
 }
 
 .jumbo {
     display: flex;
-    background-color: #b4d0e7;
     align-items: center;
     justify-content: center;
-    height: 450px;
+    height: 650px;
+}
+
+.titolo-jumbo {
+    text-align: left;
+    font-weight: 700;
+    font-size: 40px;
+    text-decoration: solid;
+    margin: 0 auto;
+    width: 115vh;
+
 }
 
 .articolo-jumbo {
     display: flex;
-    width:60%;
-    position: absolute;
+    width: 115vh;
 }
 
 .col-testo {
@@ -101,7 +115,7 @@ Main
 }
 
 .col-img {
-    width: 60%;
+    width: 40%;
 }
 
 .col-testo, .col-img {
@@ -112,7 +126,6 @@ Main
     background-size:auto;
     height: 460px;
     position: relative;
-    top: 10vh;
     margin: 0;
 
 }
@@ -123,7 +136,7 @@ Main
 
 .freggiu {
     font-size: 40px;
-    margin: 12vh 0 0 0;
+    margin: 7vh 0 0 0;
 }
 /*---------------
 Footer
