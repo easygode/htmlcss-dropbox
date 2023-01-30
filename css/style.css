@@ -15,7 +15,7 @@ Typo
 
 body {
 
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Open Sans', serif;
 }
 
 /*---------------
@@ -36,7 +36,7 @@ ul li {
     list-style: none;
 }
 
-ul li:hover {
+ul a:hover {
     text-decoration: underline;
 }
 
@@ -115,7 +115,7 @@ Main
 .titolo-jumbo {
     text-align: left;
     font-weight: 900;
-    font-size: 50px;
+    font-size: 55px;
     text-decoration: solid;
     margin: 0 auto;
     width: 1180px;
@@ -140,13 +140,13 @@ Main
 }
 
 .freggiu {
-    margin-top: 75px;
+    margin-top: 50px;
     font-size: 45px;
-    font-weight: bold;
+    font-weight: 800;
 }
 
 #jumbo-img {
-    width: 785px;
+    width: 850px;
 }
 
 /* Larghezza principale del documento, 3 colonne, ecc..*/
@@ -155,12 +155,15 @@ Main
     margin: 0 auto;
 }
 
-.radio {
-    gap: 4vh;
+.titolo-business, h2{
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 150px;
+    margin-bottom: 70px;
 }
 
-.titolo-business, .business {
-    margin-top: 10vh;
+.radio {
+    gap: 50px;
 }
 
 .col1 {
@@ -168,41 +171,61 @@ Main
 }
 
 .piano-business {
-    align-content:space-around;
-    gap: 4vh;
-    margin-top: 3vh;
+    gap: 50px;
+    margin-top: 50px;
+
+}
+
+.tipo-utente {
+    border-bottom: 1px solid #d0d0d3;
+    text-align: center;
+    padding: 10px;
 }
 
 .col1, .col2, .col3 {
     width: calc(100% / 3);
     border: solid #d0d0d3;
     border-width: 1px;
-    gap: 10px;
-    padding-top: 1vh;
+    margin-top: 10px;
 }
 
-.tipo-utente {
-    text-align: center;
-    padding: 0.5vh 2vh 0 0;
+.piano-utente, .prezzo, .tempo {
+    padding-left: 20px;
+    margin-top: 20px;
 }
 
 .piano-utente, .prezzo {
     font-weight: bold;
-    padding: 1.5vh;
+    font-size: 30px;
 }
+
+.prezzo {
+    font-size: 20px;
+} 
 
 .tempo {
     font-style: italic;
 }
 
 h3 {
-    padding: 2vh;
+    padding: 20px;
     font-size: 18px;
     font-weight: 200;
 }
 
+.btn-gratis {
+    justify-content: center;
+    padding: 20px;
+}
+
+h3 a {
+font-size: 20px;
+color: #0061ff;
+}
+
 .fa-check {
     color: #0061ff;
+    font-weight: 900;
 }
 
 /*---------------
