@@ -32,6 +32,12 @@ Common
     display: flex;
 }
 
+/* Larghezza principale del documento, 3 colonne, ecc..*/
+.principale {
+    width: 1000px;
+    margin: 0 auto;
+}
+
 ul li {
     list-style: none;
 }
@@ -102,7 +108,7 @@ nav .header-dx ul
 }
 
 /*---------------
-Main
+Main Business Plan
 ----------------*/
 
 .jumbo {
@@ -149,11 +155,7 @@ Main
     width: 850px;
 }
 
-/* Larghezza principale del documento, 3 colonne, ecc..*/
-.principale {
-    width: 1000px;
-    margin: 0 auto;
-}
+
 
 .titolo-business, h2{
     font-size: 30px;
@@ -227,6 +229,39 @@ color: #0061ff;
     color: #0061ff;
     font-weight: 900;
 }
+
+/*---------------
+Main Team
+----------------*/
+
+.team {
+    border: 1px solid #d0d0d3;
+    margin-top: 50px;
+}
+
+h2 {
+    font-size: 13.5px;
+    line-height: 0px;
+}
+
+.col4 {
+    width: 100%;
+}
+
+.col5 {
+    width: 60%;
+}
+
+.btn-vendite {
+    position: relative;
+    left: 120px;
+    top: 40px;
+}
+
+.entreprise {
+    padding: 20px;
+}
+
 
 /*---------------
 Footer
