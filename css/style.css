@@ -18,6 +18,7 @@ body {
     font-family: 'Open Sans', serif;
 }
 
+
 /*---------------
 Debug
 ----------------*/
@@ -192,7 +193,7 @@ Main Business Plan
 }
 
 .piano-utente, .prezzo, .tempo {
-    padding-left: 20px;
+    padding-left: 30px;
     margin-top: 20px;
 }
 
@@ -262,6 +263,37 @@ h2 {
     padding: 20px;
 }
 
+/*---------------
+Main Contatto
+----------------*/
+
+#contatto-img {
+width: 600px;
+}
+
+.contatto {
+    margin-top: 150px;
+}
+
+.col8 p, .btn-partner   {
+    padding-left: 30px;
+    line-height: 28px;
+    font-size: 0 0 0 20px;
+}
+
+.col8 p {
+    padding: 40px 40px 40px 30px;
+
+}
+
+.btn-partner {
+    background-color: #ffffff;
+    color: #000000;
+    padding: 5px;
+    font-size: 20px;
+    text-align: left;
+    margin-left: 10px;
+}
 
 /*---------------
 Footer
