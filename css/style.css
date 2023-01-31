@@ -453,6 +453,24 @@ Main Prova gratuita
     color: #61082b;
 }
 
+/*---------------------
+Main Domande Frequenti
+----------------------*/
+
+.faq h3, .chevron {
+    padding: 40px 60px 40px 0px;
+    font-weight: 700;
+}
+
+.faq:last-child {
+    border-bottom: 2px solid #d0d0d3;;
+}
+
+.faq-box {
+justify-content: space-between;
+border-top: 2px solid #d0d0d3;;
+}
+
 /*---------------
 Footer
 ----------------*/
