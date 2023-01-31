@@ -38,6 +38,10 @@ Debug
 Common
 ----------------*/
 
+img {
+    display: block;
+}
+
 .flex {
     display: flex;
 }
@@ -88,8 +92,7 @@ header {
     justify-content: center;
     position: fixed;
     width: 100%;
-    right:0;
-    position: fixed;
+    right: 0;
     z-index: 20;
 }
 
@@ -156,6 +159,7 @@ Main Business Plan
 }
 
 .freggiu {
+    position: absolute;
     margin-top: 50px;
     font-size: 45px;
     font-weight: 800;
@@ -163,6 +167,7 @@ Main Business Plan
 
 #jumbo-img {
     width: 850px;
+    position: absolute;
 }
 
 .titolo-business, h2{
@@ -209,6 +214,7 @@ Main Business Plan
 
 .tempo {
     font-style: italic;
+    color: #808080;
 }
 
 
@@ -247,8 +253,8 @@ Main Team
 
 .btn-vendite {
     position: relative;
-    left: 120px;
-    top: 40px;
+    left: 720px;
+    bottom: 200px;
 }
 
 .entreprise {
@@ -308,6 +314,143 @@ Main Operazioni Business
     margin: 30px 0 30px 0;
     padding-left: 30px;
 
+}
+
+/*-----------------------
+Main Utilizzo Business
+-------------------------*/
+.col12 {
+width: 65%;
+}
+
+.link-scopri a {
+    color: #0061ff;
+    text-decoration: underline;
+}
+
+/*-----------------------
+Main Scatole Referall
+-------------------------*/
+
+.referall {
+    margin-top: 150px;
+}
+    
+.referall .box {
+    width: calc(100% / 2);
+    border: 1px solid black;
+}
+    
+.referall .box::before {
+    content: '';
+    padding-top: 100%;
+}
+    
+.referall .logo {
+    width: 50%;
+    height: 50%;
+    justify-content: center;
+    align-items: center;
+    }
+    
+.box-container {
+    background-color: #f5f5f5;
+    flex-wrap: wrap;
+}
+
+#box-centrale {
+    padding: 40px;
+    justify-content: left;
+    align-items: center;
+}
+
+.logo img {
+        width: 50%;
+        filter: invert(1);
+        left: 50%;
+        top: 50%;
+
+    }
+
+.verde {
+    background-color: #a2d39b;
+    padding: 10px lightgreen;
+}
+
+.azzurro {
+    background-color: #0093ce;
+}
+
+.amaranto {
+    background-color: #61082b;
+}
+
+.rosso {
+    background-color: #ff1c1c;
+}
+
+.grigino {
+    background-color: #f5f5f5;
+}
+
+#logo-centrale {
+}
+
+#logo-florida {
+    height: 30px;
+}
+
+.rossone {
+    background-color: #d5001f;
+}
+
+.blu {
+    background-color: #0d2481;
+}
+
+.azzurrino {
+    background-color: #b4d0e7;
+}
+
+.giallo {
+    background-color: #ffd830;
+}
+
+/*-----------------------
+Main Prova gratuita
+-------------------------*/
+.prova {
+    height: 360px;
+    background-color: #b4d0e7;
+    margin: 0 auto;
+}
+
+.col12 {
+    width: 100%;
+}
+.col13 {
+    width: 90%;
+}
+
+.btn-prova {
+    position: relative;
+    left: 150px;
+    top: 160px;
+    color: #000000;
+    background-color: #ffffff;
+    border: none;
+    padding: 10px 20px 10px 20px;
+    font-size: 20px;
+    text-align: left;
+    margin-left: 10px;
+}
+
+.btn-prova:hover {
+    color: #0061ff;
+}
+
+.porta-dropbox h2 {
+    color: #61082b;
 }
 
 /*---------------
