@@ -61,7 +61,7 @@ ul a:hover {
 }
 
 
-a {
+header nav a {
     text-decoration: none;
     color: black;
     font-size: 17px;
@@ -98,6 +98,7 @@ header {
 
 nav {
     height: 80px;
+    line-height: ;
     justify-content: space-between;
     align-items: center;
     margin: 0 1vw 0 1vw;
@@ -218,10 +219,21 @@ Main Business Plan
 }
 
 
-
 .btn-gratis {
     justify-content: center;
     padding: 20px;
+}
+
+.btn-contattaci {
+    width: 250px;
+    background-color: #0061ff;
+    align-items: center;
+    text-decoration: none;
+    border: none;
+    margin: 20px 0 0 25px;
+    color: #ffff;
+    padding: 1vh 2vh 1vh 2vh;
+    font-size: 17px;
 }
 
 h3 a {
@@ -232,6 +244,7 @@ color: #0061ff;
 .fa-check {
     color: #0061ff;
     font-weight: 900;
+    margin-right: 10px;
 }
 
 /*---------------
@@ -368,8 +381,7 @@ Main Scatole Referall
         filter: invert(1);
         left: 50%;
         top: 50%;
-
-    }
+}
 
 .verde {
     background-color: #a2d39b;
